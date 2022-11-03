@@ -1,0 +1,100 @@
+{
+    "Alert_ServerError": {
+        "screenshot": ".images/alert_servererror-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".alert"
+    },
+    "Btn_AnnoyingOk": {
+        "screenshot": ".images/btn_annoyingok-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[contains(.,'OK')]"
+    },
+    "Btn_AnotherRobot": {
+        "screenshot": ".images/btn_anotherrobot-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "order-another"
+    },
+    "Btn_Order": {
+        "screenshot": ".images/btn_order-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "order"
+    },
+    "Btn_OrderYourRobot": {
+        "screenshot": ".images/btn_orderyourrobot-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//a[contains(text(),'Order your robot!')]"
+    },
+    "Btn_Preview": {
+        "screenshot": ".images/btn_preview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "preview"
+    },
+    "Div_PreviewImage": {
+        "screenshot": ".images/div_previewimage-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "robot-preview-image"
+    },
+    "Div_Reciept": {
+        "screenshot": ".images/txt_legs-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "receipt"
+    },
+    "Drop_Head": {
+        "screenshot": ".images/drop_head-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "head"
+    },
+    "Radio_Body": {
+        "screenshot": ".images/radio_body-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".radio:nth-child(3) > label"
+    },
+    "Txt_Address": {
+        "screenshot": ".images/txt_address-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//input[@id='address']"
+    },
+    "Txt_Legs": {
+        "screenshot": ".images/txt_legs-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'3. Legs:')]/../input"
+    },
+    "XPath_Btn_Order": {
+        "screenshot": ".images/xpath_btn_order-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='order']"
+    },
+    "XPath_Btn_Preview": {
+        "screenshot": ".images/xpath_btn_preview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='preview']"
+    }
+}
