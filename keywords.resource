@@ -79,7 +79,7 @@ Get user input
     Add heading    Do you want to pull the URL from secret vault?
     Add submit buttons    buttons=No,Yes    default=Yes
     ${userInput}=  Run dialog
-    Msgbox    ${userInput}[submit]
+    # Msgbox    ${userInput}[submit]
 
     IF    "${userInput}[submit]" == "Yes"
         
@@ -90,6 +90,8 @@ Get user input
         # Msgbox    ${webURL}
         Log    User selected Yes
         # Pull vault information 
+    ELSE 
+        Set Global Variable    ${webURL}    https://robotsparebinindustries.com/#/
     END
 
 Msgbox

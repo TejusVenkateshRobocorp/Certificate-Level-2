@@ -3,6 +3,8 @@ Documentation       Robot for Level 2 Certification
 ...                 Built by Tejus Venkatesh
 ...                 12-Oct-2022
 ...                 tasks.robot file has only keywords and the definiations are all written in keywords.resource file
+...                 Have used some global variables which are defined in variables.py
+...                 This robot is built and tested on MacOS - Windows File system syntax not tested
 Resource            keywords.resource
 
 
